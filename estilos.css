@@ -13,10 +13,11 @@ p{
 
 #igor{
 	color: black;
-	font-family: "Caflisch Script"
-	border: 2px groove blue;
+	font-family: "Comic Sans"
+	border: 2px dotted blue;
 }
 
 .special{
 	border: 4px double blue;
 }
+
