@@ -1,0 +1,17 @@
+body{
+	background-color: gray;
+}
+
+h1{
+	font-family: "Ubuntu"
+}
+
+p{
+	color: white;
+	border: 2px solid pink;
+}
+
+#arton{
+	color: black;
+	font-family: "Caflisch Script"
+}
