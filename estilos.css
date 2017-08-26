@@ -11,7 +11,12 @@ p{
 	border: 2px solid pink;
 }
 
-#arton{
+#igor{
 	color: black;
 	font-family: "Caflisch Script"
+	border: 2px groove blue;
+}
+
+.special{
+	border: 4px double blue;
 }
