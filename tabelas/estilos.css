@@ -1,0 +1,28 @@
+body{
+	width: center;
+	text-align: center;
+}
+
+td, th{
+	border: 1px solid #dddddd;
+	padding: 15px;
+	font-size: 18px;
+	}
+
+th{
+	background: #2E2EFE;
+}
+
+td{
+	background: #088A08;
+}
+
+table{
+	border-collapse: collapse;
+	width: 30%;
+	}
+
+.titulo{
+	background: #848484;
+	color: #F2F2F2;
+}
