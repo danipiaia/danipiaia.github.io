@@ -9,6 +9,7 @@ td, th{
 	font-size: 18px;
 	}
 
+
 th{
 	background: #2E2EFE;
 }
@@ -22,7 +23,17 @@ table{
 	width: 30%;
 	}
 
+
 .titulo{
 	background: #848484;
 	color: #F2F2F2;
+}
+
+.imagem{
+	border: white;
+	background-color: white;
+	max-width: 900px;
+	max-height: 900px;
+
+	
 }
