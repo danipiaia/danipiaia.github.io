@@ -19,8 +19,12 @@ td{
 }
 
 table{
-	border-collapse: collapse;
+	border-collapse: separate;
+	empty-cells: hide;
 	width: 30%;
+	line-height: 1;
+	margin: auto;
+	
 	}
 
 
@@ -30,10 +34,8 @@ table{
 }
 
 .imagem{
-	border: white;
-	background-color: white;
-	max-width: 900px;
-	max-height: 900px;
-
 	
-}
+	border: 1px;
+	background-color: white;
+	max-width: 0px;
+		}

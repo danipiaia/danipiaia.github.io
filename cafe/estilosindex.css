@@ -5,7 +5,6 @@ body{
 	center right;
 	background-attachment: scroll;
 	background-repeat: repeat-y;
-
 }
 
 h1{ 
@@ -37,8 +36,8 @@ h2{
 
 h4{ 
     position: center;
+    font-size: 12px
 	font-family: 'Anaheim', sans-serif;
-    font-size: 40px;
     color: #8B6914;    
  }
 
@@ -63,19 +62,53 @@ ul{
     font-color: #000;
  } 
 
- hr{ width: 70%;
-     
+ hr{ 
+    width: 70%;
  }
 
  a {
  color: #848484;
  text-decoration: none;
-
 }
 
  a:hover {
  color: #483F3F;
  text-decoration: underline;
+}
+
+legend{ 
+    position: center;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+table{
+    border: 1px;
+    border-spacing: 1px;
+    border-color: white;
+    text-align: left;
+    font-size: 16px;
+    line-height:2;
+    width: 30%;
+}
+
+th{
+    background: #D2B48C;
+    font-family: 'Anaheim', sans-serif;
+    color: #8B4513; 
+    font-size: 17px;
+    text-align: left;
+}
+
+.titulo{
+    text-align: center;
+}
+
+td{
+    background-color: #F5F5DC;
+    color:#855E42;
+    font-family: 'Anaheim', sans-serif;
+    text-align: center;
 }
 
 .imagens{
@@ -86,7 +119,6 @@ ul{
     border: 30px solid #8C7853; /* Cor da borda */
     border-radius: 10px;border: 3px solid #8C7853; /* Cor da borda */
     border: 30px inset ##CDC0B0;
-	
 }
 
 
