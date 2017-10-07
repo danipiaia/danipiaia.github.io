@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilosindex.css">
+	<title>Pedido - Café Bugs</title>
+</head>
+
+<body>
+
+	<br><br><center>
+
+<hr><h2>Pedido On Line</h2><hr>
+
+<p>Preencha o formulário abaixo e clique em "Enviar Pedido" para solicitar uma caixa com grãos personalizados.</p><br><br>
+
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+
+Escolha a variedade dos grãos: 
+<select name="variedade">
+	<option value="bourbon"> Bourbon Amarelo </option>
+	<option value="mundo_novo"> Mundo Novo </option>
+	<option value="icatu"> Icatu </option>
+	<option value="rubi"> Rubi </option>
+	<option value="topazio"> Topázio </option>
+</select> <br><br>
+
+Tipo:<br>
+<input type="radio" name="tipo" value="inteiros">Grãos Inteiros<br>
+<input type="radio" name="tipo" value="moidos">Grãos Moídos<br><br>
+
+Extras:<br>
+<input type="checkbox" name="extras" value="presente">Embalar para presente<br>
+<input type="checkbox" name="extras" value="catalogo">Quero um catálogo com cafés especiais<br><br>
+
+Dados de envio:<br><br>
+Nome: <input type="text" name="nome" placeholder="Nome Completo"><br><br>
+Endereço: <input type="text" name="endereco" placeholder="Endereço Completo"><br><br>
+Cidade: <input type="text" name="cidade"><br><br>
+Estado: <input type="text" name="estado"><br><br>
+
+
+<input type="submit" value="Enviar Pedido">
+<input type="reset" value="Limpar"><br><br>
+
+
+
+								
+	
+
+</form>
+
+</body>
+</html>
