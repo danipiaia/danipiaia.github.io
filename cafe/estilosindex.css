@@ -45,7 +45,7 @@ p{
     font-family: 'Anaheim', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    font-color: #000;
+    font-color: #8B4513;
  }
 
 ul{ 
@@ -123,6 +123,24 @@ td{
 
 form{
     text-align: left;
+    font-family: 'Anaheim', sans-serif;
+    color: #8B4513; 
+    font-size: 17px;
+    text-align: left
 }
 
+.select{
+    border: 1px solid;
+    border-radius:4px;
+    font-size: 17px;
+    color:  #8B4513; 
+}
 
+.input_radio, .inputext, .input_check{
+    border: 1px solid;
+    border-radius:4px;
+    border-collapse: collapse;
+    font-size: 17px;
+    font-family: 'Anaheim', sans-serif;
+    color:  #8B4513;  
+}
