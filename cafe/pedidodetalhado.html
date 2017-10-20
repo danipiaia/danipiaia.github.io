@@ -8,22 +8,20 @@
 
 <body>
 
-	<br><br><center>
-
-<hr><h2>Pedido On Line</h2><hr>
+<hr><h2>Pedido On Line</h2><hr><br>
 
 <p>Preencha o formulário abaixo e clique em "Enviar Pedido" para solicitar uma caixa com grãos personalizados.</p>
 
 <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
-<table>
+<table>    
 <tr>
     <th colspan="2" class="formheader"> Dados de contato </th>
 </tr>
-    <tr><td class="formlabel"> Nome Completo:</td><td class=" formfield"><input type="text" size="40"   placeholder="Jack Java Lee" name="nome" required></td></tr><br>
+    <tr><td class="formlabel"> Nome Completo:</td><td class=" formfield"><input type="text" size="40"   placeholder="Jack Java Lee" name="nome" required></td></tr>
    
-    <tr><td class="formlabel"> E-mail:</td><td class=" formfield"><input type="email" size="40"   placeholder="jack_java@gmail.com" name="mail" required></td></tr><br> 
+    <tr><td class="formlabel"> E-mail:</td><td class=" formfield"><input type="email" size="40"   placeholder="jack_java@gmail.com" name="mail" required></td></tr>
    
-    <tr><td class="formlabel"> Telefone:</td><td class=" formfield"><input  type="tel" size="15"  placeholder="(55) 99999 9999" name="tel" required></td></tr><br> 
+    <tr><td class="formlabel"> Telefone:</td><td class=" formfield"><input  type="tel" size="15"  placeholder="(55) 99999 9999" name="tel" required></td></tr> 
 
 <tr>
     <th colspan="2" class="formheader"> Informações do pedido </th>
@@ -35,30 +33,27 @@
         <option value="icatu"> Icatu </option>
         <option value="rubi"> Rubi </option>
         <option value="topazio"> Topázio </option>
-    </select></td></tr><br><br>
+    </select></td></tr>
 
-    <tr><td class="formlabel"> Quantidade:</td><td class=" formfield"><input  type="number" size="3" min="1" max="100"  name="quantidade" required></td></tr><br>
+    <tr><td class="formlabel"> Quantidade:</td><td class=" formfield"><input  type="number" size="3" min="1" max="100"  name="quantidade" required></td></tr>
 
-    <tr><td class="formlabel"> Data Limite: </td><td class=" formfield"><input type="date" min="2017-10-13" name="data" required></td></tr><br> 
+    <tr><td class="formlabel"> Data Limite: </td><td class=" formfield"><input type="date" min="2017-10-13" name="data" required></td></tr> 
 
     <tr><td class="formlabel"> Tipo:</td><td class=" formfield">
         <input type="radio" name="tipo" class="formfield" value="inteiros">Grãos Inteiros<br>
-        <input type="radio" name="tipo" class="formfield" value="moidos">Grãos Moídos</td></tr><br><br>
+        <input type="radio" name="tipo" class="formfield" value="moidos">Grãos Moídos</td></tr>
 
     <tr><td class="formlabel"> Extras:</td><td class=" formfield">
         <input type="checkbox" class="formfield" name="extras" value="presente">Embalar para presente<br>
-        <input type="checkbox"  class="formfield" name="extras" value="catalogo">Quero um catálogo com cafés especiais</td></tr><br><br>
-
+        <input type="checkbox"  class="formfield" name="extras" value="catalogo">Quero um catálogo com cafés especiais</td></tr>
 
 <tr>
     <th colspan="2" class="formheader"> Dados de Entrega </th>
 </tr>
 
-     <tr><td class="formlabel"> Endereço:</td><td class=" formfield"><input size="62" type="text"  placeholder="Rua das Girafas, nº 50, Apt 301 - Centro" name="endereco" required></td></tr><br>
+     <tr><td class="formlabel"> Endereço:</td><td class=" formfield"><input size="62" type="text"  placeholder="Rua das Girafas, nº 50, Apt 301 - Centro" name="endereco" required></td></tr>
 
-    <tr><td class="formlabel"> Cidade/Estado:</td><td class=" formfield"><input type="text" size="30" placeholder="Frederico Westphalen" name="cidade" required></td></tr>
-        
-    <tr><td class="formlabel"> Estado: </td><td class="formfield" ><select name="estado" required >
+    <tr><td class="formlabel"> Cidade/Estado:</td><td class=" formfield"><input type="text" size="30" placeholder="Frederico Westphalen" name="cidade" required> / <select name="estado" required >
             <option value="ac">AC</option> 
             <option value="al">AL</option> 
             <option value="am">AM</option> 
@@ -88,16 +83,15 @@
             <option value="to">TO</option>
             </select></td></tr><br><br>
     
-    <tr><td class="formlabel"> CEP:</td><td class=" formfield"><input  type="text" size="9" name="cep" required></td></tr><br>
+    <tr><td class="formlabel"> CEP:</td><td class=" formfield"><input  type="text" size="9" name="cep" required></td></tr>
 
- <tr><td class="formlabel"> Observações:</td><td class=" formfield">
-<textarea rows="4" cols="48" name="obs"></textarea></td></tr><br><br>
+ <tr><td class="formlabel"> Observações:</td><td class=" formfield"> <textarea rows="4" cols="48" name="obs"></textarea></td></tr>
 
-</table><br><br>
-<a href="index.html#blend">Voltar</a><br><br>
+ <tr><td> </td><td><input type="submit" class="formfield" value="Enviar Pedido"> <input type="reset" class="formfield" value="Limpar"></td></tr>
 
-<input type="submit" class="inputext" value="Enviar Pedido">
-<input type="reset" class="inputext" value="Limpar"><br><br>
+</table><br>
+
+<a href="index.html">Voltar</a>
 
 </form>
 
