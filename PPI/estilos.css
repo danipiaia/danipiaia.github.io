@@ -1,0 +1,114 @@
+/*
+Geral
+*/
+
+img{
+    max-width: 15%;
+    height: auto;
+    padding-bottom: 3%;
+}
+
+body {
+    background-image: url(fundo);
+    font-family: "Open sans", helvetica, ARIAL, SANS-SERIF;
+    color: #f1f1f1;
+}
+
+H1, H2, h3 {
+    color: black;
+    text-align: center;
+    margin: 1em;
+    font-family: "Roboto Slab",  helvetica, ARIAL, SANS-SERIF;
+    font-weight: 700;   
+}
+
+/*
+NAVEGAÇÃO
+*/
+
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+nav > a {
+    position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: ;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: Griffy, serif;
+}
+
+nav ul {
+    background-image: url(fundo);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    border-radius: 3px;
+    color: #f1f1f1;
+}
+
+nav ul li a {
+    background-color: goldenrod;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 4px 9px;
+    font-size: .9em;
+    border-radius: 7px;
+    width: 100%;
+    line-height: 30px;
+    
+}
+
+/*
+CABEÇALHO
+*/
+
+header {
+    background-color: #f1f1f1;
+    background-image: url(fundo);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 28px;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+
+/*
+DEFINICAO
+*/
+
+section {
+    background-color: #f1f1f1;
+    background-image: url(fundo);
+    background-size: auto;
+}
