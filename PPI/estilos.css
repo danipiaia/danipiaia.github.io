@@ -1,17 +1,16 @@
 /*
 Geral
 */
+/*
+ppiimagens/094731036882132.jpg
+ppiimagens/zendesk-multichannel.png*/
 
-img{
-    max-width: 15%;
-    height: auto;
-    padding-bottom: 3%;
-}
 
 body {
-    background-image: url(fundo);
-    font-family: "Open sans", helvetica, ARIAL, SANS-SERIF;
-    color: #f1f1f1;
+    background-image: url(ppiimagens/094731036882132.jpg);
+    background-repeat: no-repea;
+    background-size: 100%;
+    font-family: "Open sans", helvetica, ARIAL, SANS-SERIF;    text-align: center;
 }
 
 H1, H2, h3 {
@@ -19,7 +18,7 @@ H1, H2, h3 {
     text-align: center;
     margin: 1em;
     font-family: "Roboto Slab",  helvetica, ARIAL, SANS-SERIF;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 /*
@@ -68,34 +67,37 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: goldenrod;
     text-align: center;
-    color: black;
-    text-decoration: none;
     padding: 4px 9px;
     font-size: .9em;
     border-radius: 7px;
     width: 100%;
     line-height: 30px;
-    
+    color: #f1f1f1;
+    text-decoration: none;
+    background-color: #4B0082;
 }
 
 /*
 CABEÇALHO
 */
 
-header {
+header{
     background-color: #f1f1f1;
-    background-image: url(fundo);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 28px;
+    text-align:center;
+    margin: 10px 225px;
+}
+
+section{
+    background-image: url();
+    margin: 10px 225px;
+}
+    
 }
 
 header p {
@@ -108,7 +110,26 @@ DEFINICAO
 */
 
 section {
+    color: black;
+    text-align: justify;
     background-color: #f1f1f1;
-    background-image: url(fundo);
-    background-size: auto;
+    background-image: ;
+}
+
+/*
+footer
+*/
+
+#foo {
+    text-align: right;
+    color: slategrey;
+}
+
+#non{
+    background: none;
+}
+
+
+#agenda{
+    background-color: #eeeeee;
 }
