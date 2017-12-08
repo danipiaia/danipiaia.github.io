@@ -20,7 +20,7 @@
     <a class="nav-link active" href="#carousel slide">Frederico Westphalen</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#sobre">Início</a>
+    <a class="nav-link active" href="#inicio">Início</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" href="#sobre">Sobre</a>
@@ -29,7 +29,7 @@
     <a class="nav-link active" href="#distancia">Distância</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link active" href="#contatos">Contato</a>
+    <a class="nav-link active" href="#contato">Contato</a>
   </li>
 </ul>
 
@@ -72,13 +72,13 @@
 <div class="sobre">
 
 <br>
-<h1><center> Sobre </h1>
+<h1 id="sobre"><center> Sobre </h1>
   <p>Frederico Westphalen é um município brasileiro do estado do Rio Grande do Sul. Localiza-se a uma latitude 27º21'33" sul e a uma longitude 53º23'40" oeste, estando a uma altitude de 566 metros. Sua população, de acordo com a estimativa para 2017, feita pelo IBGE, é de 30.832[3] habitantes. Possui uma área de 264,53 km². É o centro regional da microrregião homônima. </p>
   <hr>
 
 
 <div class="distancia">
-<h1><center> Distância</h1>
+<h1 id="distancia"><center> Distância</h1>
 
 <hr>
 
@@ -86,10 +86,10 @@
   
    <table>
     
-    <tr><td rowspan="4"><img src="img/google.jpg"></td> <th>Rota de Viagem</th><th>Distância (km)</th> <th>Tempo estimado de viagem</th></tr>
-    <tr><td>De carro</td><td>428 km</td><td>5 horas 34 min</td></tr>  
-    <tr><td>À pé</td><td>428 km</td><td>3 dias 17 horas</td></tr>
-    <tr><td>Avião - linha reta</td><td>304 km</td><td>27.4minutos</td></tr>
+    <tr><td rowspan="4"><img src="img/google.jpg"><th>Rota de Viagem</th><th>Distância (km)</th> <th>Tempo estimado de viagem</th></tr>
+   <tr class="cor"><td>De carro</td><td>428 km</td><td>5 horas 34 min</td></tr>  
+   <tr> <td>À pé</td><td>428 km</td><td>3 dias 17 horas</td></tr>
+  <tr class="cor"> <td >Avião - linha reta</td><td>304 km</td><td>27.4minutos</td></tr>
     
   </table>
 </div>
@@ -97,7 +97,7 @@
 <br><br>
 
   <div class="contato">
-    <h1><center> Contato </h1>
+    <h1 id="contato"><center> Contato </h1>
       <hr>
     <form>
     Nome<br>
@@ -131,6 +131,9 @@
 
   tr{
     text-align: center;
+  }
+  .cor{
+    background-color: #E6E6E6;
   }
 </style>
 
